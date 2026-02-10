@@ -43,6 +43,7 @@ pnpm-lock.yaml
 # Staticrypt
 ##################################################
 
+.staticrypt.json
 staticrypt.json
 staticrypt.config.js
 staticrypt.config.json
