@@ -1,0 +1,76 @@
+##################################################
+# macOS
+##################################################
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+##################################################
+# Obsidian
+##################################################
+
+.obsidian/workspace.json
+.obsidian/workspace
+.obsidian/cache
+.obsidian/plugins
+.obsidian/themes
+.obsidian/snippets
+.obsidian/community-plugins.json
+.obsidian/app.json
+.obsidian/appearance.json
+.obsidian/hotkeys.json
+.obsidian/graph.json
+
+# Falls du keine Obsidian-Konfig teilen willst:
+.obsidian/
+
+##################################################
+# Node / npm (für Staticrypt)
+##################################################
+
+node_modules/
+npm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+##################################################
+# Staticrypt
+##################################################
+
+staticrypt.json
+staticrypt.config.js
+staticrypt.config.json
+
+# Falls du temporäre encrypted Dateien erzeugst:
+*_encrypted.html
+
+##################################################
+# Export-Artefakte (optional)
+##################################################
+
+# Falls du HTML nur temporär erzeugst
+export/
+build/
+dist/
+
+##################################################
+# Logs
+##################################################
+
+*.log
+
+##################################################
+# Backup / temporär
+##################################################
+
+*.bak
+*.tmp
+*.swp
+*.swo
+*~
